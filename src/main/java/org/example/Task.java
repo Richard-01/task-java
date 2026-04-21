@@ -1,5 +1,5 @@
 package org.example;
-
+//Realizado por Richard Montoya (marca de agua) jajaja
 public class Task {
     private String title;
     private String description;
@@ -10,7 +10,7 @@ public class Task {
         this.description = description;
         this.state = state;
     }
-
+//Realizado por Richard Montoya (marca de agua) jajaja
     public String getTitle(){
         return this.title;
     }
@@ -24,3 +24,4 @@ public class Task {
         this.state = state;
     }
 }
+//Realizado por Richard Montoya (marca de agua) jajaja

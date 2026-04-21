@@ -1,5 +1,5 @@
 package org.example;
-
+//Realizado por Richard Montoya (marca de agua) jajaja
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -69,6 +69,7 @@ public class Main extends JFrame {
         txtTitle.setText("");
         txtDescription.setText("");
     }
+    //Realizado por Richard Montoya (marca de agua) jajaja
     private void componentInicialize(){
         JPanel entryPanel = new JPanel(new GridLayout(4,2,5,5));
         entryPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
@@ -121,3 +122,5 @@ public class Main extends JFrame {
         SwingUtilities.invokeLater(() -> new Main().setVisible(true));
     }
 }
+
+//Realizado por Richard Montoya (marca de agua) jajaja
